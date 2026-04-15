@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D1DAB970FB393782FC1539 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044938668A0141537CAC118 /* APIClient.swift */; };
+		08558335D01E860EC394FECD /* DashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD00311CAE06C464918488 /* DashboardStore.swift */; };
+		0BB6CA80B098193AF7839EF0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C044938668A0141537CAC118 /* APIClient.swift */; };
+		0CB0E02FABCD2E7D3EF255AB /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833D02791434029FCC5EB33 /* ControlButton.swift */; };
+		143BF85E86FFF1C6AA6C4B32 /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833D02791434029FCC5EB33 /* ControlButton.swift */; };
+		186FFDE4DECDD3B918096218 /* HarborDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93213449F2517D304F3B492 /* HarborDashboardApp.swift */; };
+		19DA2CD22E27A4773E5CDD50 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF93FD6F5777314040375FD /* SettingsView.swift */; };
+		239E2358048F3C4F060322A5 /* HarborDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93213449F2517D304F3B492 /* HarborDashboardApp.swift */; };
+		28BCE64000BF082902D0A656 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF93FD6F5777314040375FD /* SettingsView.swift */; };
+		3BFC2293CFECC98BE16240FA /* DashboardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C125155CCD24F4A9B282C55 /* DashboardModels.swift */; };
+		6BA7929D2331740B61A4A15B /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA234F918B57F2729D2E8EC6 /* DesignSystem.swift */; };
+		85BD12DB87CEBDA65F32D688 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975D934E302A52B314EFAD2 /* DashboardView.swift */; };
+		86547358D803C42C0F26EEA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19D87114B027DAE0DD3593 /* AppDelegate.swift */; };
+		92D1C8935A374F53F98A897E /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C052542D7EDD7C505BB667 /* AppSettings.swift */; };
+		94435C977810ABA810383FD8 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA234F918B57F2729D2E8EC6 /* DesignSystem.swift */; };
+		A18232724FA753ACC43E3623 /* HeartbeatMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE8CD67F79DA15AB2E4127 /* HeartbeatMonitor.swift */; };
+		A6C10845730EA21B632FC380 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C052542D7EDD7C505BB667 /* AppSettings.swift */; };
+		ADF9599B538466BBB7383C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19D87114B027DAE0DD3593 /* AppDelegate.swift */; };
+		B6B35AAE41BB381CDA913B41 /* DashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD00311CAE06C464918488 /* DashboardStore.swift */; };
+		BECBCC551AAF5D499146FEC8 /* HeartbeatMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE8CD67F79DA15AB2E4127 /* HeartbeatMonitor.swift */; };
+		E9663F311B0A31B3F3054A40 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975D934E302A52B314EFAD2 /* DashboardView.swift */; };
+		F27A84212B848186B8CBF5E0 /* DashboardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C125155CCD24F4A9B282C55 /* DashboardModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D19D87114B027DAE0DD3593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13AD00311CAE06C464918488 /* DashboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardStore.swift; sourceTree = "<group>"; };
+		4C125155CCD24F4A9B282C55 /* DashboardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModels.swift; sourceTree = "<group>"; };
+		65EE8CD67F79DA15AB2E4127 /* HeartbeatMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatMonitor.swift; sourceTree = "<group>"; };
+		A833D02791434029FCC5EB33 /* ControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButton.swift; sourceTree = "<group>"; };
+		AA234F918B57F2729D2E8EC6 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		B85F8482357E382CE6DD1D5D /* HarborDashboard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HarborDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF93FD6F5777314040375FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BEEF2B93A1CCF36FE22F9936 /* HarborDashboardMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarborDashboardMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C044938668A0141537CAC118 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CA94CCD4739DF7839194016E /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		CADD349454EA0D88641DF755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D4C052542D7EDD7C505BB667 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		E975D934E302A52B314EFAD2 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F93213449F2517D304F3B492 /* HarborDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborDashboardApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		021E5759C54EE5042ED99873 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				AA234F918B57F2729D2E8EC6 /* DesignSystem.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		19E97DD66161AB3B1CAA70DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C125155CCD24F4A9B282C55 /* DashboardModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3962A60402513C064F338A77 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B85B28AF01E994DB204E2001 /* App */,
+				021E5759C54EE5042ED99873 /* Design */,
+				8A071E7B0AC2B6E198F96F63 /* Features */,
+				19E97DD66161AB3B1CAA70DF /* Models */,
+				DE56E841FB736175ED4A0EFF /* Networking */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		51179EFBE9FC59CA701B5065 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA94CCD4739DF7839194016E /* Info-macOS.plist */,
+				CADD349454EA0D88641DF755 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A071E7B0AC2B6E198F96F63 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F5A274DFE0AC558E25DBA2A4 /* Controls */,
+				CDA6BA1FEADA8797FD3665D4 /* Dashboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A48A12A1D13F61680FCDB68D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85F8482357E382CE6DD1D5D /* HarborDashboard.app */,
+				BEEF2B93A1CCF36FE22F9936 /* HarborDashboardMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B85B28AF01E994DB204E2001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0D19D87114B027DAE0DD3593 /* AppDelegate.swift */,
+				D4C052542D7EDD7C505BB667 /* AppSettings.swift */,
+				F93213449F2517D304F3B492 /* HarborDashboardApp.swift */,
+				65EE8CD67F79DA15AB2E4127 /* HeartbeatMonitor.swift */,
+				BCF93FD6F5777314040375FD /* SettingsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CDA6BA1FEADA8797FD3665D4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				13AD00311CAE06C464918488 /* DashboardStore.swift */,
+				E975D934E302A52B314EFAD2 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		DE56E841FB736175ED4A0EFF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C044938668A0141537CAC118 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EADD8D75CEABFC54824A1D37 = {
+			isa = PBXGroup;
+			children = (
+				51179EFBE9FC59CA701B5065 /* Resources */,
+				3962A60402513C064F338A77 /* Sources */,
+				A48A12A1D13F61680FCDB68D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A274DFE0AC558E25DBA2A4 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				A833D02791434029FCC5EB33 /* ControlButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98EC380C04C9183B84472862 /* HarborDashboardMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB5EB8CB649089BB3A34214 /* Build configuration list for PBXNativeTarget "HarborDashboardMac" */;
+			buildPhases = (
+				782DE755F434D3DD5B895830 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarborDashboardMac;
+			packageProductDependencies = (
+			);
+			productName = HarborDashboardMac;
+			productReference = BEEF2B93A1CCF36FE22F9936 /* HarborDashboardMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0B56B02BBFB8277478D621B /* HarborDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FBA0A603B5AA0F68712103 /* Build configuration list for PBXNativeTarget "HarborDashboard" */;
+			buildPhases = (
+				03749DAFC0F473E14FE7DA49 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarborDashboard;
+			packageProductDependencies = (
+			);
+			productName = HarborDashboard;
+			productReference = B85F8482357E382CE6DD1D5D /* HarborDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F2C77D2EBA110F13C77D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					98EC380C04C9183B84472862 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					C0B56B02BBFB8277478D621B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 846CC2AB10BA530BFF0A50AB /* Build configuration list for PBXProject "HarborDashboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EADD8D75CEABFC54824A1D37;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A48A12A1D13F61680FCDB68D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B56B02BBFB8277478D621B /* HarborDashboard */,
+				98EC380C04C9183B84472862 /* HarborDashboardMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03749DAFC0F473E14FE7DA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1DAB970FB393782FC1539 /* APIClient.swift in Sources */,
+				ADF9599B538466BBB7383C5C /* AppDelegate.swift in Sources */,
+				A6C10845730EA21B632FC380 /* AppSettings.swift in Sources */,
+				0CB0E02FABCD2E7D3EF255AB /* ControlButton.swift in Sources */,
+				F27A84212B848186B8CBF5E0 /* DashboardModels.swift in Sources */,
+				B6B35AAE41BB381CDA913B41 /* DashboardStore.swift in Sources */,
+				85BD12DB87CEBDA65F32D688 /* DashboardView.swift in Sources */,
+				94435C977810ABA810383FD8 /* DesignSystem.swift in Sources */,
+				239E2358048F3C4F060322A5 /* HarborDashboardApp.swift in Sources */,
+				BECBCC551AAF5D499146FEC8 /* HeartbeatMonitor.swift in Sources */,
+				28BCE64000BF082902D0A656 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782DE755F434D3DD5B895830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB6CA80B098193AF7839EF0 /* APIClient.swift in Sources */,
+				86547358D803C42C0F26EEA8 /* AppDelegate.swift in Sources */,
+				92D1C8935A374F53F98A897E /* AppSettings.swift in Sources */,
+				143BF85E86FFF1C6AA6C4B32 /* ControlButton.swift in Sources */,
+				3BFC2293CFECC98BE16240FA /* DashboardModels.swift in Sources */,
+				08558335D01E860EC394FECD /* DashboardStore.swift in Sources */,
+				E9663F311B0A31B3F3054A40 /* DashboardView.swift in Sources */,
+				6BA7929D2331740B61A4A15B /* DesignSystem.swift in Sources */,
+				186FFDE4DECDD3B918096218 /* HarborDashboardApp.swift in Sources */,
+				A18232724FA753ACC43E3623 /* HeartbeatMonitor.swift in Sources */,
+				19DA2CD22E27A4773E5CDD50 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07878BEF6C8A462A1B9621CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.harbor.dashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		110EDB38A31FD80323F78CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/HarborDashboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = HarborDashboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B1552FA3ACC04167F3EADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Resources/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.harbor.dashboard.mac;
+				PRODUCT_NAME = "HarborDashboard Mac";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52FA6413394FA86E7795CEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.harbor.dashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6EEAF857AAA1427595EE2BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Resources/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.harbor.dashboard.mac;
+				PRODUCT_NAME = "HarborDashboard Mac";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9D7589ECE9567C012AB4329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/HarborDashboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = HarborDashboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63FBA0A603B5AA0F68712103 /* Build configuration list for PBXNativeTarget "HarborDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D7589ECE9567C012AB4329 /* Debug */,
+				110EDB38A31FD80323F78CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		846CC2AB10BA530BFF0A50AB /* Build configuration list for PBXProject "HarborDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07878BEF6C8A462A1B9621CA /* Debug */,
+				52FA6413394FA86E7795CEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDB5EB8CB649089BB3A34214 /* Build configuration list for PBXNativeTarget "HarborDashboardMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEAF857AAA1427595EE2BA3 /* Debug */,
+				18B1552FA3ACC04167F3EADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F2C77D2EBA110F13C77D35 /* Project object */;
+}
