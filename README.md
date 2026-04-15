@@ -15,6 +15,7 @@ Harbor is a two-part system for keeping an eye on a home Mac server without turn
 - Lets the iPhone app raise a local alert when a heartbeat is missed
 - Sends direct alert pushes for critical events like power disconnects and network outages
 - Exposes a versioned HTTP API with HTTPS-friendly custom-hostname support
+- Includes a built-in cookie-authenticated web dashboard for browser access
 - Supports runtime APNS device registration so the server can learn clients dynamically
 - Supports a hardened deployment model with Cloudflare Tunnel, HTTPS, bearer auth, and an optional second shared secret
 
@@ -34,6 +35,9 @@ This gives you:
 - Cloudflare edge authentication before the request reaches your server
 - Origin-side application authentication even after the tunnel
 
+If you also want SSH without a static IP, give SSH its own hostname such as `ssh.example.com`.
+Use `server.example.com` for the HTTPS dashboard/API and `ssh.example.com` for the SSH service.
+
 ## Server setup
 
 1. Install dependencies:
@@ -44,7 +48,7 @@ This gives you:
    ```
 
 2. Copy `.env.example` to `.env` and fill in your values.
-   For a tunnel-backed deployment, keep `HOST=127.0.0.1`, set `PUBLIC_ENDPOINT_MODE=custom`, set `CUSTOM_BASE_URL=https://server.example.com`, and use strong random values for `API_TOKEN` and `CLIENT_SHARED_SECRET`.
+   For a tunnel-backed deployment, keep `HOST=127.0.0.1`, set `PUBLIC_ENDPOINT_MODE=custom`, set `CUSTOM_BASE_URL=https://server.example.com`, use strong random values for `API_TOKEN` and `CLIENT_SHARED_SECRET`, and set `WEB_PASSWORD` plus `WEB_SESSION_SECRET` for the browser dashboard.
 
 3. Run the daemon locally:
 
@@ -60,6 +64,16 @@ This gives you:
    ```
 
 5. For Cloudflare Tunnel, start from `server/cloudflared/config.example.yml`.
+   That example includes one hostname for the dashboard/API and one for SSH.
+
+## Browser dashboard
+
+Once `WEB_PASSWORD` is set, Harbor exposes:
+
+- `/login`: password sign-in page
+- `/dashboard`: cookie-authenticated browser dashboard
+
+The dashboard stays intentionally compact and is separate from the bearer-token API used by the Apple clients.
 
 ## Client setup
 

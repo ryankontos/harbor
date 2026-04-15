@@ -4,4 +4,6 @@ credentials-file: /Users/ryan/.cloudflared/REPLACE_WITH_TUNNEL_ID.json
 ingress:
   - hostname: server.example.com
     service: http://127.0.0.1:8787
+  - hostname: ssh.example.com
+    service: ssh://localhost:22
   - service: http_status:404
